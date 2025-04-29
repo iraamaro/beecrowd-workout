@@ -1,0 +1,17 @@
+{
+    "search.useIgnoreFiles": false,
+    "editor.rulers": [
+        {
+            "column": 72,
+            "color": "#30FF4247"
+        },
+        {
+            "column": 80,
+            "color": "#FFF1305E"
+        },
+        {
+            "column": 100,
+            "color": "#FF3030BF"
+        }
+    ]
+}
