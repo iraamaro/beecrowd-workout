@@ -1,9 +1,9 @@
 require 'spec_helper'
 require '1004.rb'
 
-describe CalcProd do
+describe C1004 do
   before(:each) do
-    @calc = CalcProd.new
+    @calc = C1004.new
   end
   describe 'Uso do método .call' do
     context 'quando chamo .call com 3 * 9' do

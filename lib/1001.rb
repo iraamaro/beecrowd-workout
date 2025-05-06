@@ -1,4 +1,4 @@
-class Calculator
+class C1001
   def sum(a, b)
     check_a = Integer(a) rescue Float(a) rescue nil
     check_b = Integer(b) rescue Float(b) rescue nil

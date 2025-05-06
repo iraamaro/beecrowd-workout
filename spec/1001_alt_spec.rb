@@ -1,9 +1,9 @@
 require 'spec_helper'
 require '1001_alt.rb'
 
-describe Calculator do
+describe C1001Alt do
   before(:each) do
-    @calc = Calculator.new
+    @calc = C1001Alt.new
   end
   describe 'Uso do método .call' do
     context 'quando chamo .call com 10 + 9' do

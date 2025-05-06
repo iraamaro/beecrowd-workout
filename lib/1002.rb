@@ -1,4 +1,4 @@
-class Area
+class C1002
   def self.call
     r = get_number("Digite o raio da circunferência: ")
     # a = Math::PI * r**2

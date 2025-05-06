@@ -1,9 +1,9 @@
 require 'spec_helper'
 require '1000.rb'
 
-describe 'Greetings' do
+describe C1000 do
   before(:each) do
-    @hello = Message.new()
+    @hello = C1000.new()
   end
   describe 'Uso do método hello()' do
     context 'quando chamo o método hello' do

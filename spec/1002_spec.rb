@@ -1,9 +1,9 @@
 require 'spec_helper'
 require '1002.rb'
 
-describe Area do
+describe C1002 do
   before(:each) do
-    @area = Area.new
+    @area = C1002.new
   end
   describe 'Uso do método .call' do
     context 'quando chamo .call com raio 2' do

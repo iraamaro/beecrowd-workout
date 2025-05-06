@@ -1,9 +1,9 @@
 require 'spec_helper'
 require '1001.rb'
 
-describe 'Calculator' do
+describe C1001 do
   before(:each) do
-    @calc = Calculator.new()
+    @calc = C1001.new()
   end
   describe 'Uso do método sum()' do
     context 'quando chamo o método sum() passando 10 + 9' do

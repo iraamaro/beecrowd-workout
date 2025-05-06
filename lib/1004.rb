@@ -1,4 +1,4 @@
-class CalcProd
+class C1004
     def self.call
       a = get_number("Digite o primeiro número: ")
       b = get_number("Digite o segundo número: ")

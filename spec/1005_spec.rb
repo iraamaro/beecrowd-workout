@@ -1,9 +1,9 @@
 require 'spec_helper'
 require '1005.rb'
 
-describe Grade do
+describe C1005 do
   before(:each) do
-    Grade.new
+    C1005.new
   end
   describe 'Uso do método .call' do
     context 'quando chamo .call com n1 = 5.0 e n2 = 7.1' do

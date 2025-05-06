@@ -1,4 +1,4 @@
-class Grade
+class C1005
     def self.call
       n1 = get_number("Digite a primeira nota: ")
       n2 = get_number("Digite a segunda nota: ")
@@ -12,7 +12,7 @@ class Grade
         input = gets.chomp
         if valid_number?(input)
           number = input.to_f.round(1)
-          return number if number >= 0 && number < 11
+          return number if number >= 0 || number <= 11
         else
           puts "Entrada inválida. Por favor, digite um número positivo."
         end
@@ -20,7 +20,7 @@ class Grade
     end
   
     def self.valid_number?(input)
-      input.match?(/\A\d+(\.\d+)?\z/)
+      input.match?(/\A(?:10(?:\.0+)?|(?:[0-9](?:\.\d+)?))\z/)
     end
   end
   
