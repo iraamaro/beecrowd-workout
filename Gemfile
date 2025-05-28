@@ -5,4 +5,4 @@ gem 'rake'
 gem 'rspec'
 gem 'readapt'
 gem 'debug'
-
+gem 'ruby-debug-ide'

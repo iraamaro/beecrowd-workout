@@ -1,4 +1,5 @@
 {
+    "ruby.interpreter.commandPath": "~/.asdf/shims/ruby",
     "search.useIgnoreFiles": false,
     "editor.rulers": [
         {
