@@ -1,0 +1,6 @@
+a, b, c = gets.split.map(&:to_f)
+puts format("TRIANGULO: %.3f", (a * c)/2.0)
+puts format("CIRCULO: %.3f", (c ** 2 * 3.14159))
+puts format("TRAPEZIO: %.3f", ((a + b) * c) / 2.0)
+puts format("QUADRADO: %.3f", (b**2))
+puts format("RETANGULO: %.3f", (a * b))
