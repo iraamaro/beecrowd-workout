@@ -1,11 +1,10 @@
 class C1020
   def initialize(age_days)
-    unless (
+    invalid_input = !(
         age_days.is_a?(Integer) ||
         (age_days.is_a?(String) && age_days.match?(/\A\d+\z/))
     )
-      raise ArgumentError, "Digite apenas números inteiros."
-    end
+    raise ArgumentError, "Digite apenas números inteiros." if invalid_input
     @age_days = age_days.to_i
   end
 
