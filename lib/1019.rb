@@ -3,7 +3,6 @@ class C1019
     unless total_seconds.match?(/\A\d+\z/)
       raise ArgumentError, "Digite apenas números inteiros."
     end
-
     @total_seconds = total_seconds.to_i
   end
 
